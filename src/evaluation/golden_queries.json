@@ -1,0 +1,24 @@
+{
+  "queries": [
+    {"id": "q01", "query": "What was Apple's total net sales in 2023?", "category": "numeric", "expected_route": "SUFFICIENT"},
+    {"id": "q02", "query": "How did foreign currency fluctuations affect Apple's net sales in 2023?", "category": "narrative", "expected_route": "SUFFICIENT"},
+    {"id": "q03", "query": "What was Microsoft's R&D expense in 2023?", "category": "numeric", "expected_route": "SUFFICIENT"},
+    {"id": "q04", "query": "What was Apple's total operating income in 2023?", "category": "numeric", "expected_route": "SUFFICIENT"},
+    {"id": "q05", "query": "What was Apple's revenue from the Greater China segment in 2023?", "category": "segment", "expected_route": "SUFFICIENT"},
+    {"id": "q06", "query": "What was Microsoft's Intelligent Cloud revenue in 2023?", "category": "segment", "expected_route": "SUFFICIENT"},
+    {"id": "q07", "query": "What was Alphabet's Google Cloud revenue in 2023?", "category": "segment", "expected_route": "SUFFICIENT"},
+    {"id": "q08", "query": "What were Apple's main risk factors related to foreign exchange?", "category": "narrative", "expected_route": "SUFFICIENT"},
+    {"id": "q09", "query": "What was Microsoft's operating income in fiscal 2023?", "category": "numeric", "expected_route": "SUFFICIENT"},
+    {"id": "q10", "query": "What was Alphabet's total revenue in 2023?", "category": "numeric", "expected_route": "SUFFICIENT"},
+    {"id": "q11", "query": "How does Apple's 2023 revenue compare to the current global smartphone market?", "category": "comparative", "expected_route": "WEB"},
+    {"id": "q12", "query": "What are the latest AI regulations in the EU?", "category": "temporal", "expected_route": "WEB"},
+    {"id": "q13", "query": "What is Apple's current stock price?", "category": "temporal", "expected_route": "WEB"},
+    {"id": "q14", "query": "What are analysts saying about Microsoft's cloud growth in 2024?", "category": "temporal", "expected_route": "WEB"},
+    {"id": "q15", "query": "What did the Federal Reserve announce at its latest meeting?", "category": "temporal", "expected_route": "WEB"},
+    {"id": "q16", "query": "Who is the current CEO of Microsoft?", "category": "temporal", "expected_route": "WEB"},
+    {"id": "q17", "query": "What is Microsoft's current market cap?", "category": "temporal", "expected_route": "WEB"},
+    {"id": "q18", "query": "What are the most recent AI model releases from OpenAI?", "category": "temporal", "expected_route": "WEB"},
+    {"id": "q19", "query": "What is the current US inflation rate?", "category": "temporal", "expected_route": "WEB"},
+    {"id": "q20", "query": "What did Apple's CEO say about AI strategy in 2023?", "category": "negative", "expected_route": "WEB"}
+  ]
+}

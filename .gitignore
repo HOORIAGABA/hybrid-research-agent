@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+data/cache/
+
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+*.mp4
+
+*.mp4
