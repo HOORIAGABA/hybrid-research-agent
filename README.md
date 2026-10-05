@@ -1,5 +1,8 @@
 # Hybrid Research Agent
 
+[![CI](https://github.com/HOORIAGABA/hybrid-research-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/HOORIAGABA/hybrid-research-agent/actions/workflows/ci.yml)
+
+
 A multi-agent system that combines **internal RAG** (via an MCP server) with **live web search**. A coordinator agent decides at runtime whether the internal corpus is sufficient or whether the web is needed.
 
 ![Demo](docs/demo.gif)
