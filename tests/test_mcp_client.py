@@ -1,7 +1,6 @@
 """Parse tests for MCP client."""
 from src.mcp_client.hybrid_rag_client import _parse_chunks
 
-
 SAMPLE = """[1] apple_2023_10k.htm p.30 (rerank=0.983)
 ed 3% or $11.0 billion during 2023 compared to 2022.
 
